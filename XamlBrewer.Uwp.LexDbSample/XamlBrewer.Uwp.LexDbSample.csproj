@@ -121,7 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Pictures\1965_Corvette_C2_Stingray.jpg" />
-    <Content Include="Assets\Pictures\1965_Dodge_Challenger.jpg" />
+    <Content Include="Assets\Pictures\1969_Dodge_Challenger.jpg" />
     <Content Include="Assets\Pictures\1965_Ford_Mustang_Coupe.jpg" />
     <Content Include="Assets\Pictures\1965_Ford_Mustang_Fastback.jpg" />
     <Content Include="Assets\Pictures\1965_Pontiac_GTO.jpg" />
