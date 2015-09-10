@@ -115,7 +115,7 @@
             car.Picture = await file.AsByteArray();
             cars.Add(car);
 
-            // Feel free to add the Camaro and Fitrebird ...
+            // Feel free to add the Camaro and Firebird ...
 
             return cars;
         }
