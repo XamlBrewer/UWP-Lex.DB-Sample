@@ -129,8 +129,7 @@
                 <TextBlock Text="Id"
                            FontSize="20"
                            HorizontalAlignment="Right"
-                           FontWeight="Light"
-                           Foreground="LightSlateGray" />
+                           Foreground="SteelBlue" />
                 <TextBlock Grid.Column="2"
                            Text="{Binding Id}"
                            FontSize="20" />
@@ -138,8 +137,7 @@
                            Text="Name"
                            FontSize="20"
                            HorizontalAlignment="Right"
-                           FontWeight="Light"
-                           Foreground="LightSlateGray" />
+                           Foreground="SteelBlue" />
                 <TextBlock Visibility="{Binding IsInEditMode, Converter={StaticResource ReverseBooleanToVisibilityConverter}}"
                            Grid.Row="2"
                            Grid.Column="2"
@@ -154,8 +152,7 @@
                            Text="Release Date"
                            FontSize="20"
                            HorizontalAlignment="Right"
-                           FontWeight="Light"
-                           Foreground="LightSlateGray" />
+                           Foreground="SteelBlue" />
                 <TextBlock Visibility="{Binding IsInEditMode, Converter={StaticResource ReverseBooleanToVisibilityConverter}}"
                            Grid.Row="4"
                            Grid.Column="2"
@@ -171,8 +168,7 @@
                            Visibility="{Binding IsInEditMode, Converter={StaticResource BooleanToVisibilityConverter}}"
                            FontSize="20"
                            HorizontalAlignment="Right"
-                           FontWeight="Light"
-                           Foreground="LightSlateGray" />
+                           Foreground="SteelBlue" />
                 <AppBarButton Grid.Row="6"
                               Grid.Column="2"
                               Visibility="{Binding IsInEditMode, Converter={StaticResource BooleanToVisibilityConverter}}"
@@ -185,8 +181,7 @@
                            Text="Description"
                            FontSize="20"
                            HorizontalAlignment="Right"
-                           FontWeight="Light"
-                           Foreground="LightSlateGray" />
+                           Foreground="SteelBlue" />
                 <TextBlock Visibility="{Binding IsInEditMode, Converter={StaticResource ReverseBooleanToVisibilityConverter}}"
                            Grid.Row="8"
                            Grid.Column="2"
