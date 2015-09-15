@@ -36,10 +36,9 @@ namespace XamlBrewer.Uwp.LexDbSample
         /// </summary>
         private void MainPage_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "SelectedPerson" && viewModel.SelectedCar != null)
+            if (e.PropertyName == "SelectedCar" && viewModel.SelectedCar != null)
             {
                 this.CoverFlow.SelectedItem = viewModel.SelectedCar;
-                //this.CoverFlow.SelectedIndex = viewModel.Cars.Count - 1;
             }
         }
 

@@ -130,10 +130,10 @@
             this.selectCommand.Execute(null);
         }
 
-        private void Delete_Executed()
+        private async void Delete_Executed()
         {
             // Remove from db
-            Dal.DeleteCars(new List<VintageMuscleCar>() { this.selectedCar.Model });
+            await Dal.DeleteCars(new List<VintageMuscleCar>() { this.selectedCar.Model });
 
             // Remove from list
             this.Cars.Remove(this.selectedCar);

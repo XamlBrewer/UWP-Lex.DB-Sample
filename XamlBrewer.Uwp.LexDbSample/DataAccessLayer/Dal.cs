@@ -43,14 +43,14 @@
             return car.Id;
         }
 
-        public static Task SaveCars(IEnumerable<VintageMuscleCar> cars)
+        public async static Task SaveCars(IEnumerable<VintageMuscleCar> cars)
         {
-            return db.Table<VintageMuscleCar>().SaveAsync(cars);
+            await db.Table<VintageMuscleCar>().SaveAsync(cars);
         }
 
-        public static Task DeleteCars(IEnumerable<VintageMuscleCar> cars)
+        public async static Task<int> DeleteCars(IEnumerable<VintageMuscleCar> cars)
         {
-            return db.Table<VintageMuscleCar>().DeleteAsync(cars);
+            return await db.Table<VintageMuscleCar>().DeleteAsync(cars);
         }
 
         public async static Task ResetCars()

@@ -133,7 +133,7 @@
                     Canvas.SetZIndex(this, zIndex);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Ignore.
                 // You get here by programmatically navigating to an item that is not visible.
